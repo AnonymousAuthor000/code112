@@ -96,9 +96,11 @@ You can use the default setting (just type Return/Enter for every option).
 ```
 cp ./files/kernel_files/* ./tensorflow-2.9.1/tensorflow/lite/kernels/
 cp ./files/build_files/build.sh ./tensorflow-2.9.1/
+cp -r ../minimal ./tensorflow-2.9.1/tensorflow/lite/examples/
 ```
 
 Note that you can mofify the maximal number of jobs in the 'build.sh' script. Here I set it as `--jobs=14`. 
+
 
 ## Test the DLModelParser
 
